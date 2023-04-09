@@ -14,11 +14,8 @@ function saturdayFun(activity = "roller-skate")
   
   function wrapAdjective(flair = "*")
   {
-    
         return function(adjective = "special") {
           return `You are ${flair}${adjective}${flair}!`;
         }
-      
-      
       const result = wrapAdjective("!!!");
   }
